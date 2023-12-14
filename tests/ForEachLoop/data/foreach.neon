@@ -1,0 +1,5 @@
+services:
+    -
+        class: SamLitowitz\PHPStan\Visitors\ForEachByRefUnsetAfterVisitor
+        tags:
+            - phpstan.parser.richParserNodeVisitor

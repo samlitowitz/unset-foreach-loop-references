@@ -1,0 +1,5 @@
+parameters:
+    bootstrap: %rootDir%/../../../vendor/autoload.php
+    exclude_analyse:
+        - %rootDir%/../../../vendor/*
+        - %rootDir%/../../../tests/ForEachLoop/data/*

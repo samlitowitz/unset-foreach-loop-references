@@ -1,0 +1,10 @@
+.*
+
+!.editorconfig
+!.gitattributes
+!.gitignore
+!.php_cs
+
+composer.lock
+
+vendor/
