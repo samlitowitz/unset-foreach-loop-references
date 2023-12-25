@@ -38,6 +38,10 @@ class UnsetReferenceValuesAfterUseRuleTest extends RuleTestCase
 					'foreach value &$r3 IS A reference and IS NOT `unset` immediately after the loop',
 					30,
 				],
+				[
+					'foreach value &$r3 IS A reference and IS NOT `unset` immediately after the loop',
+					37,
+				],
 			]
 		);
 	}
